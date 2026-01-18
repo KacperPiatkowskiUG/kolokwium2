@@ -23,9 +23,12 @@ int process_number(int n)
 
 int main(void)
 {
-    int n = 4;
-    int result = process_number(n);
+    int n;
 
-    printf("Wynik: %d\n", result);
+    printf("Podaj liczbe większą od 0: ");
+    scanf("%d", &n);
+
+    printf("Wynik: %d\n", process_number(n));
+
     return 0;
 }
