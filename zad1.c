@@ -25,7 +25,7 @@ int main(void)
 {
     int n;
 
-    printf("Podaj liczbe większą od 0: ");
+    printf("Podaj liczbe wieksza od 0: ");
     scanf("%d", &n);
 
     printf("Wynik: %d\n", process_number(n));
